@@ -7,6 +7,8 @@ W. Avy likes your analysis, but he wants more information about temperature tren
 - Surf Results Objective:
 1. Determine the Summary Statistics for June
 2. Determine the Summary Statistics for December
+3. Use SQLAlchemy to connect to SQLite Database
+4. Used Flask Web tools for displaying data.
 
 ## Tempeture Data for the month of June
 
@@ -27,13 +29,16 @@ W. Avy likes your analysis, but he wants more information about temperature tren
 ## Resources
 
 - Data Source: hawaii.sqlite 
-- Software: Python 3.9.7., Visual Studio Code, Panda, Sqlite, matplot, and flask
+- Software: Python 3.9.7., Visual Studio Code, Panda, Sqlite, matplot,SQLAlchemy and flask
 
 ## Results:
 
+The Mean for the month of June is at 74.94 degrees will the the mean for the month of December is at 71.04 degrees this means that their small deviation in tempeture during all year around. This information is important because it give the inverstors the support necessary to make a decision of openning a Surf Shop all year around. 
 
 
 
 ## Implications
+
+Some of the implication with this dataset was converting the raw data into weather information. Clearing the data from null values and selecting the necessary months as well as removing dublicate data such as index columns.
 
 
